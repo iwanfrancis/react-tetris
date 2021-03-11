@@ -7,9 +7,9 @@ type GridSquareProps = {
 };
 
 const GridSquare = ({ state }: GridSquareProps) => {
-  const squareClass = state === null ? styles.Empty : tetrominoStyles[state];
+  const colorClass = state === null ? styles.Empty : tetrominoStyles[state];
 
-  return <div className={squareClass}></div>;
+  return <div className={`${styles.Square} ${colorClass}`}></div>;
 };
 
 export default GridSquare;

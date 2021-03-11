@@ -8,8 +8,6 @@
 
   display: grid;
   grid-template: repeat(20, 1fr) / repeat(10, 1fr);
-  gap: 1px 1px;
 
-  background-color: $grid-square-border;
   border: 5px solid $grid-border;
 }

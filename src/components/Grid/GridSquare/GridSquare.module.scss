@@ -1,5 +1,9 @@
 @import "../../../styles/theme.scss";
 
+.Square {
+  border: 1px solid $grid-square-border;
+}
+
 .Empty {
   background-color: $grid-square-empty;
 }
