@@ -1,10 +1,13 @@
 import { useReducer } from "react";
+import { Tetrominos } from "../types/Tetrominos";
 
 const initialState = {
   grid: Array(20)
     .fill(null)
     .map((x) => Array(10).fill(null)),
+  activeShape: Tetrominos[Math.floor(Math.random() * Tetrominos.length)],
   activeLocation: { row: 0, col: 4 },
+  rotation: 0,
 };
 
 type ACTION =

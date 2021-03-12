@@ -1,6 +1,6 @@
 import styles from "./GridSquare.module.scss";
 import tetrominoStyles from "../../../styles/Tetrominos.module.scss";
-import GridSquareState from "../../../types/GridSquareState";
+import { GridSquareState } from "../../../types/GridTypes";
 
 type GridSquareProps = {
   state: GridSquareState;
