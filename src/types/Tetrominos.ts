@@ -19,9 +19,9 @@ const I = [
 
 const O = [
   [
-    [Tetromino.O, Tetromino.O, null, null],
-    [Tetromino.O, Tetromino.O, null, null],
     [null, null, null, null],
+    [null, Tetromino.O, Tetromino.O, null],
+    [null, Tetromino.O, Tetromino.O, null],
     [null, null, null, null],
   ],
 ];
